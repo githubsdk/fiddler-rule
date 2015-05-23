@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoResponder LastSave="2015-05-23T15:06:55.7841999+08:00" FiddlerVersion="4.5.1.0">
+  <State Enabled="true" Fallthrough="true" UseLatency="true">
+    <ResponseRule Match="regex:\w+://.+\/image\/shouye\/(?&lt;path&gt;.+)\.(?&lt;extension&gt;\w+)" Action="C:/Users/Administrator/Desktop/test/${path}.${extension}" Latency="13" Enabled="true" />
+  </State>
+</AutoResponder>
